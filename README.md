@@ -40,6 +40,14 @@ $ make ARCH=arm sunxi_defconfig
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 ```
 
+This version of linux, however, if you wanna run Debian, you must add these to your `arch/arm/configs/sunxi_defconfig`:
+
+```
+CONFIG_AUTOFS4_FS=y
+CONFIG_CGROUPS=y
+CONFIG_FHANDLE=y
+```
+
 ## 5    Burning image
 
 Actions below burns uboot, linux and rootfs(Buildroot) into TF card, and make sure the FEL key is not pressed during reboot for Cubieboard boots from TF card.
@@ -68,4 +76,4 @@ Now, insert TF card, reboot the board, enjoy.
 
 ## Others
 
-[http://www.cubietech.com/product-detail/cubieboard1/](cubieboard website)
+[http://www.cubietech.com/product-detail/cubieboard1/](cubieboard_website)

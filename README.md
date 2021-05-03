@@ -2,19 +2,19 @@
 
 ## 1    What Cubieboard has:
 
-1. SOC:   AllWinner SOC A10, ARM® Cortex™-A8，1GHz, ARM® Mali 400 complies with OpenGL ES 2.0/1.1
-2. Memory:   1GB DDR3@480MHz (960MTPS)
-3. Storage:   NAND Flash, 4GB default, support TSD flash with SDIO interface
-4. TF Card:   Micro SD card slot, up to 32GB
-5. SATA:  Support 2.5 inch HDD/SSD up to 2TB
-6. Display:  HDMI Port A, HDMI V1.4a, support 1080P@60Hz resolution output
-7. Ethernet:  10M/100M RJ45
-8. IR:   Infrared remote receiver Philips standard
-9. Audio:   Support 3.5 headphone jack for Audio output, Support 3.5 jack for Line-In
-10. Power:   DCIN 5V@2.5A power, Support USB power input
-11. Keys:   Power key, Uboot key for reflashing the ROM
-12. LEDs:   Power Led x 1, User Led x 2
-13. Extended:   I2C, SPI, RGB/LVDS for LCD, CSI/TS for camera, FM-IN, ADC, CVBS output, VGA, SPDIF-OUT, RTP, and some more
+1.  SOC:      AllWinner SOC A10, ARM® Cortex™-A8，1GHz, ARM® Mali 400 complies with OpenGL ES 2.0/1.1
+2.  Memory:   1GB DDR3@480MHz (960MTPS)
+3.  Storage:  NAND Flash, 4GB default, support TSD flash with SDIO interface
+4.  TF Card:  Micro SD card slot, up to 32GB
+5.  SATA:     Support 2.5 inch HDD/SSD up to 2TB
+6.  Display:  HDMI Port A, HDMI V1.4a, support 1080P@60Hz resolution output
+7.  Ethernet: 10M/100M RJ45
+8.  IR:       Infrared remote receiver Philips standard
+9.  Audio:    Support 3.5 headphone jack for Audio output, Support 3.5 jack for Line-In
+10. Power:    DCIN 5V@2.5A power, Support USB power input
+11. Keys:     Power key, Uboot key for reflashing the ROM
+12. LEDs:     Power Led x 1, User Led x 2
+13. Extended: I2C, SPI, RGB/LVDS for LCD, CSI/TS for camera, FM-IN, ADC, CVBS output, VGA, SPDIF-OUT, RTP, and some more
 
 ## 2    Before start
 

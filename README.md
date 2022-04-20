@@ -72,6 +72,16 @@ extracting rootfs...
 unmounting sdcard...
 ```
 
+## 6    Debug
+
+Doing this in uboot to flash kernel to SDRAM
+
+```
+tftpboot 0x41000000 zImage
+tftpboot 0x41800000 sun4i-a10-cubieboard.dtb
+bootz 0x41000000 - 0x41800000
+```
+
 Now, insert TF card, reboot the board, enjoy.
 
 ## Others
